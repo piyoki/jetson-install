@@ -154,6 +154,7 @@ sudo apt-get install python3-pip python3-dev
 sudo apt-get install python-pip
 sudo apt-get install python-setuptools
 sudo apt-get install python3-setuptools
+sudo apt-get install libcanberra-gtk0 libcanberra-gtk-module
 }
 
 #func 2
