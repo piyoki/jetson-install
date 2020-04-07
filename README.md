@@ -2,7 +2,7 @@
 
 ## Intro
 
-Jetson-install is a useful tool that allows you to download the most important softwares based on aarch64 architecture you may need for development on your jetson kit. It is compatible with TX1, TX2, Nano, Xavier, and even Rpi. There are 11 softwares listed. Please check out the intro below:
+Jetson-install is a useful tool that allows you to download the most important softwares based on aarch64 architecture you may need for development on your jetson kit. It is compatible with TX1, TX2, Nano, Xavier, and even Rpi. There are 11 softwares listed. Please check out the detailed description for each software below:
 
 ## Demo
 
