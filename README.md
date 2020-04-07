@@ -53,3 +53,8 @@ PyCharm is an integrated development environment (IDE) used in computer programm
 Docker is basically a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container. Docker uses Copy-on-write union file system for its backend storage.
 
 ## How to use
+
+Clone the repository, install, and enjoy !! \
+$ git clone https://github.com/yqlbu/jetson-install/
+$ sudo chmod +x install.sh
+$ ./install.sh
