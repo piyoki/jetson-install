@@ -58,6 +58,8 @@ echo -e "
 |                                                    	|
 +-------------------------------------------------------+
 "
+echo -e " author: Kevin Yu (kevinyu211@yahoo.com)
+"
 read -p ' ->  Put the package # you wish to install here: ' NUM
 echo -e " ->  You choose #$NUM.
  ->  Download will start in 3 seconds."
