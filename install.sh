@@ -147,6 +147,7 @@ esac
 #func 1
 ness (){
 cd ~
+sudo apt-get update
 sudo apt-get install nano
 sudo apt-get install curl
 sudo apt-get install python3-pip python3-dev
