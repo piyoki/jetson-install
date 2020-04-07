@@ -58,7 +58,7 @@ echo -e "
 |                                                    	|
 +-------------------------------------------------------+
 "
-echo -e " author: Kevin Yu (kevinyu211@yahoo.com)
+echo -e " Author: Kevin Yu (kevinyu211@yahoo.com)
 "
 read -p ' ->  Put the package # you wish to install here: ' NUM
 echo -e " ->  You choose #$NUM.
