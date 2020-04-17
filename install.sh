@@ -197,6 +197,7 @@ rm -rf Archiconda3-0.2.3-Linux-aarch64.sh
 cd ~
 export PATH=~/archiconda3/bin:$PATH
 sudo chown $USER archiconda3/
+conda config --add channels conda-forge
 conda -V
 }
 
