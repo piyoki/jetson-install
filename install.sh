@@ -195,8 +195,8 @@ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archicond
 sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 rm -rf Archiconda3-0.2.3-Linux-aarch64.sh
 cd ~
-export PATH=~/archiconda3/bin:$PATH
 sudo chown -R $USER archiconda3/
+export PATH=~/archiconda3/bin:$PATH
 conda config --add channels conda-forge
 conda -V
 }
