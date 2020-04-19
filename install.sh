@@ -148,21 +148,21 @@ esac
 ness (){
 cd ~
 sudo apt-get update
-sudo apt-get install nano
-sudo apt-get install curl
-sudo apt-get install python3-pip python3-dev
-sudo apt-get install python-pip
-sudo apt-get install python-setuptools
-sudo apt-get install python3-setuptools
-sudo apt-get install python3-opencv
-sudo apt-get install libcanberra-gtk0 libcanberra-gtk-module
+sudo apt-get install -y nano
+sudo apt-get install -y curl
+sudo apt-get install -y python3-pip python3-dev
+sudo apt-get install -y python-pip
+sudo apt-get install -y python-setuptools
+sudo apt-get install -y python3-setuptools
+sudo apt-get install -y python3-opencv
+sudo apt-get install -y libcanberra-gtk0 libcanberra-gtk-module
 }
 
 #func 2
 oss_code (){
 cd ~
 curl -s https://packagecloud.io/install/repositories/swift-arm/vscode/script.deb.sh | sudo bash
-sudo apt-get install code-oss
+sudo apt-get install -y code-oss
 }
 
 #func 3
@@ -204,7 +204,7 @@ conda -V
 #func 7
 ibus_pinyin (){
 cd ~
-sudo apt-get install ibus-pinyin
+sudo apt-get install -y ibus-pinyin
 }
 
 #func 8
@@ -218,7 +218,7 @@ export PATH=$PATH:~/.local/bin
 #func 9
 kazam (){
 cd ~
-sudo apt-get install kazam
+sudo apt-get install -y kazam
 }
 
 #func 10
@@ -232,7 +232,7 @@ rm rf nomachine_6.9.2_1_arm64.deb
 #func 11
 pycharm (){
 cd ~
-sudo apt-get update && sudo apt-get install openjdk-8-jdk
+sudo apt-get update && sudo apt-get install -y openjdk-8-jdk
 wget https://download.jetbrains.com/python/pycharm-professional-2019.3.4.tar.gz?_ga=2.42966822.2056165753.1586158936-1955479096.1586158936 -O pycharm-professional-2019.3.4.tar.gz
 tar -xzf pycharm-professional-2019.3.4.tar.gz && cd pycharm-2019.3.4/bin
 sudo chmod +x pycharm.sh && mv pycharm.sh pycharm
