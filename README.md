@@ -56,8 +56,8 @@ Docker is basically a container engine which uses the Linux Kernel features like
 
 Clone the repository, install, and enjoy !! \
 ```
-$ git clone https://github.com/yqlbu/jetson-install/ 
-$ cd jetson-install/
+$ git clone https://github.com/yqlbu/jetson-install
+$ cd jetson-install
 $ sudo chmod +x install.sh 
 $ ./install.sh
 ```
