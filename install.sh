@@ -224,9 +224,9 @@ sudo apt-get install -y kazam
 #func 10
 nomachine (){
 cd ~
-wget https://download.nomachine.com/download/6.9/Arm/nomachine_6.9.2_1_arm64.deb
-sudo dpkg -i nomachine_6.9.2_1_arm64.deb
-rm rf nomachine_6.9.2_1_arm64.deb
+wget https://download.nomachine.com/download/6.10/Arm/nomachine_6.10.12_1_arm64.deb
+sudo dpkg -i nomachine_6.10.12_1_arm64.deb
+rm rf nomachine_6.10.12_1_arm64.deb
 }
 
 #func 11
