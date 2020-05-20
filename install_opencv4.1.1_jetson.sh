@@ -238,6 +238,7 @@ fi
 
 # Install Python packages
 sudo apt-get install -y python-opencv python3-opencv
+sudo apt-get install -y libopencv-dev
 
 # check installation
 IMPORT_CHECK="$(python -c "import cv2 ; print cv2.__version__")"
