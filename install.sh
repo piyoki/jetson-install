@@ -196,7 +196,7 @@ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 rm -rf Archiconda3-0.2.3-Linux-aarch64.sh
 cd ~
 sudo chown -R $USER archiconda3/
-export PATH=~/archiconda3/bin:$PATH
+export 'PATH=~/archiconda3/bin:$PATH' >> ~/.bashrc
 conda config --add channels conda-forge
 conda -V
 }
@@ -212,7 +212,7 @@ jupyter_lab (){
 cd ~
 pip3 install jupyterlab
 pip3 install --upgrade --force jupyter-console
-export PATH=$PATH:~/.local/bin
+export 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
 }
 
 #func 9
