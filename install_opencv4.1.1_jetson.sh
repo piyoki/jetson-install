@@ -237,7 +237,6 @@ if [ "$PACKAGE_OPENCV" != "" ] ; then
 fi
 
 # Install Python packages
-sudo apt-get install -y python-opencv python3-opencv
 sudo apt-get install -y libopencv-dev
 sudo apt-get install -y libopencv-core-dev
 
