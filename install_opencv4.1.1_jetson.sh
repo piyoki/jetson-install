@@ -242,7 +242,7 @@ sudo apt-get install -y libopencv-dev
 sudo apt-get install -y libopencv-core-dev
 
 # check installation
-IMPORT_CHECK="$(python -c "import cv2 ; print cv2.__version__")"
+IMPORT_CHECK="$(python3 -c "import cv2 ; print(cv2.__version__)")"
 if [[ $IMPORT_CHECK != *$OPENCV_VERSION* ]]; then
   echo "There was an error loading OpenCV in the Python sanity test."
   echo "The loaded version does not match the version built here."
