@@ -199,6 +199,7 @@ sudo chown -R $USER archiconda3/
 export 'PATH=~/archiconda3/bin:$PATH' >> ~/.bashrc
 conda config --add channels conda-forge
 conda -V
+echo "export PATH=/bin:/usr/bin:$PATH" >> ~/.bashrc
 }
 
 #func 7
